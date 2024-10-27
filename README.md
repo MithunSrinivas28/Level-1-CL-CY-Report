@@ -288,7 +288,7 @@ SSH replaced Telnet because Telnet transmits data, including passwords, in plain
 
 I learnt how mysql works and got a handle of the mysql workbench interface. I used thunderclient to connect from the vs code to the mysql workbench
 I did some basic operations like create and read operations
-I connected the pakaage with mysql db using createpool technique 
+
 # SSH
 
 **SSH (Secure Shell)** is a network protocol that securely connects to remote systems. It encrypts data, ensuring that sensitive information like passwords stays protected during transmission.
