@@ -269,4 +269,43 @@ SCRAPING IP ADDRESSES
 WEBSCRAPING A WEBSITE
 ![380485650-d0f3e52f-1639-42ee-bc75-bda886977558](https://github.com/user-attachments/assets/1c801ac7-6ebb-4200-8ed8-9b2cc293619a)
 
+TASK 6: Kali linux and SSH
+I got familiar with kali linux and Basic commands of Nmap.I learnt the importance of SSh and the types of penetration testing.I did scanning of of a target ip and found the open ports and their versions
+
+# KALI Linux commands
+
+### Sudo command 
+  In **Kali Linux** (and other Linux distributions), the `sudo` (short for "superuser do") command allows a permitted user to execute a command as the **superuser** (root) or another user, as specified by the security policy. It is primarily used for administrative tasks that require higher privileges than a normal user account.
+![Pasted image 20241023150909](https://github.com/user-attachments/assets/4813f710-c3ec-42a9-8040-cbc584c4774a)
+
+
+Ping
+`ping` command is a network utility used to test the **reachability** of a host on an IP network. It is commonly used to check if a particular system (device, server, or host) is online and responding to network requests.
+
+![Pasted image 20241023162006](https://github.com/user-attachments/assets/a0bbddcb-3c45-4e1f-9fb5-ad33c79dc073)
+
+  ### SN command
+
+The `-sn` option is used to perform a **ping scan** (also known as a "no port scan"). When you use this option, Nmap disables the default port scanning phase and instead focuses on **host discovery**. It checks whether the hosts on the network are up (alive) without probing their open ports.
+![Pasted image 20241023180758](https://github.com/user-attachments/assets/81e38c11-ff09-464e-b7fc-c8122d0c62c6)
+
+## Penetration testing
+
+
+Black Box Testing: The tester has no prior knowledge of the system. This simulates an external attack where the attacker has to discover vulnerabilities without any insider information.
+
+White Box Testing: The tester has complete knowledge of the system, including source code and architecture. This allows for thorough testing and identification of vulnerabilities.
+
+Gray Box Testing: The tester has partial knowledge of the system. This approach combines aspects of both black and white box testing, simulating an insider threat or a targeted attack.![Pasted image 20241023175132](https://github.com/user-attachments/assets/3d8e1d16-5ade-4067-83c6-2bc1e1c239e4)
+
+In this screenshot it shows the ports and the and the type of the protocol running such as tcp etc.
+
+## SSH
+
+**SSH (Secure Shell)** is a network protocol that securely connects to remote systems. It encrypts data, ensuring that sensitive information like passwords stays protected during transmission.
+
+### Why SSH Replaced Telnet
+
+SSH replaced Telnet because Telnet transmits data, including passwords, in plain text, making it vulnerable to eavesdropping and attacks. SSH, in contrast, uses encryption to secure data, making it far more secure and suitable for managing remote systems.
+
 
