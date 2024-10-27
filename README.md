@@ -106,21 +106,19 @@ Physical Layer: Handles the physical transmission of raw data (bits) via cables,
 
  Simple example to learn OSI model:
 
-A device sends a frame across a physical network using Ethernet cables.
+A My device sends a frame across a physical network using Ethernet cables.
 - The frame passes through various network devices, including:
     - Switch
     - Router
-    - Another switch
-- The frame ultimately reaches the destination: networkchuck.coffee.
-- The server at networkchuck.coffee de-encapsulates the frame to extract the application data.
-- The data includes a web request from a user (Johnny) who wants to view the homepage of networkchuck.coffee to shop for coffee.
-- The web server processes Johnny's request.
+- The frame ultimately reaches the destination: uvcemarvel.com
+- The server at uvcemarvel.com de-encapsulates the frame to extract the application data.
+- The data includes a web request from a user (Mithun) who wants to view the homepage of uvcemarvel.com to apply project track
+- The web server processes Mithun's request.
 - The server encapsulates the information needed for the response into a new frame.
 - The response frame is sent back through the network:
     - Switch
     - Router
-    - Switch
-- Finally, the response is received by Johnny.
+- Finally, the response is received by Mithun.
 
 # TASK 4:Encryption Techniques
 The objective of the task was to learn about basic encryption and decryption using python.I learnt about Types of encryption techniques that is syymetric and asymmetric .I studied about AES AND RSA techniques .
