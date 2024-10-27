@@ -153,3 +153,62 @@ A device sends a frame across a physical network using Ethernet cables.
     - Router
     - Switch
 - Finally, the response is received by Johnny.
+
+# TASK 4:Encryption Techniques
+The objective of the task was to learn about basic encryption and decryption using python.I learnt about Types of encryption techniques that is syymetric and asymmetric .I studied about AES AND RSA techniques .I also learnt how to webscrape from a job website  using pyhton libraries such as beautifulsoup4 and pycrytodome where I could filter out the jobs acc to my skills
+
+
+# Symmetric Encryption
+
+Symmetric encryption is a cryptographic method that uses the same key for both encryption and decryption. This key is shared between the sender and the recipient.
+
+### Key Pair:
+
+In symmetric encryption, there's only one key, which is shared between the sender and the recipient.
+
+
+## AES (Advanced Encryption Standard)
+It is a powerful encryption algorithm used to secure data by scrambling it in a way that only those with the correct key can decipher. Imagine it as a lock and key system for digital information
+![Pasted image 20241016185351](https://github.com/user-attachments/assets/35551a65-7c85-4748-a3d7-88c0805a6be1)
+
+Encryption Process: The AES algorithm processes the plaintext in multiple rounds (10 rounds for 128-bit keys). Each round consists of several operations:
+
+SubBytes: Substitutes bytes using a predefined substitution table.
+ShiftRows: Shifts rows of the state array to the left.
+MixColumns: Mixes the data in each column.
+AddRoundKey: Combines the state with the round key derived from the original key
+
+
+# Asymmetric encryption:
+
+Asymmetric encryption, also known as public-key cryptography, involves the use of two distinct but mathematically related keys: a public key and a private key.
+
+### Key pair
+
+The public key is shared openly and can be distributed to anyone who wants to send secure messages.
+
+The private key is kept secret by the owner and is used to decrypt messages encrypted with the corresponding public key.
+
+## RSA TECHNIQUES
+
+RSA is a widely used asymmetric encryption algorithm. Here's a simplified breakdown of the process:
+
+**1. Key Generation:**
+
+- **Choose two large prime numbers:** These numbers should be kept secret.
+- **Calculate the modulus:** Multiply the two prime numbers to get the modulus (n).
+- **Calculate the totient:** Calculate the totient (φ(n)) of the modulus.
+- **Choose an encryption exponent (e):** Choose a number (e) that is relatively prime to φ(n) and satisfies 1 < e < φ(n).
+- **Calculate the decryption exponent (d):** Calculate the decryption exponent (d) such that (e * d) mod φ(n) = 1.
+
+**2. Encryption:**
+
+- **Convert the plaintext to a number:** Represent the plaintext as a number (m) within a specific range.
+- **Calculate the ciphertext:** The ciphertext (c) is calculated as c = m^e mod n.
+
+**3. Decryption:**
+
+- **Calculate the plaintext:** The plaintext (m) is calculated as m = c^d mod n
+
+### WHY AES OVER RSA?:
+AES is preferred over RSA for bulk data encryption due to its speed, efficiency, and ability to handle large datasets effectively. RSA is typically used for secure key exchange rather than for encrypting large amounts of data directly. In many secure systems, both AES and RSA are used together, with RSA handling key exchange and AES providing fast data encryption.
