@@ -173,14 +173,6 @@ RSA is a widely used asymmetric encryption algorithm. Here's a simplified breakd
 - **Choose an encryption exponent (e):** Choose a number (e) that is relatively prime to φ(n) and satisfies 1 < e < φ(n).
 - **Calculate the decryption exponent (d):** Calculate the decryption exponent (d) such that (e * d) mod φ(n) = 1.
 
-**2. Encryption:**
-
-- **Convert the plaintext to a number:** Represent the plaintext as a number (m) within a specific range.
-- **Calculate the ciphertext:** The ciphertext (c) is calculated as c = m^e mod n.
-
-**3. Decryption:**
-
-- **Calculate the plaintext:** The plaintext (m) is calculated as m = c^d mod n
 
 ### WHY AES OVER RSA?:
 AES is preferred over RSA for bulk data encryption due to its speed, efficiency, and ability to handle large datasets effectively. RSA is typically used for secure key exchange rather than for encrypting large amounts of data directly. In many secure systems, both AES and RSA are used together, with RSA handling key exchange and AES providing fast data encryption
@@ -241,10 +233,10 @@ SCRAPING IP ADDRESSES
 WEBSCRAPING A WEBSITE
 ![380485650-d0f3e52f-1639-42ee-bc75-bda886977558](https://github.com/user-attachments/assets/1c801ac7-6ebb-4200-8ed8-9b2cc293619a)
 
-TASK 6: Kali linux and SSH
+# TASK 6: Kali linux and SSH
 I got familiar with kali linux and Basic commands of Nmap.I learnt the importance of SSh and the types of penetration testing.I did scanning of of a target ip and found the open ports and their versions
 
-# KALI Linux commands
+## KALI Linux commands
 
 ### Sudo command 
   In **Kali Linux** (and other Linux distributions), the `sudo` (short for "superuser do") command allows a permitted user to execute a command as the **superuser** (root) or another user, as specified by the security policy. It is primarily used for administrative tasks that require higher privileges than a normal user account.
@@ -260,6 +252,17 @@ Ping
 
 The `-sn` option is used to perform a **ping scan** (also known as a "no port scan"). When you use this option, Nmap disables the default port scanning phase and instead focuses on **host discovery**. It checks whether the hosts on the network are up (alive) without probing their open ports.
 ![Pasted image 20241023180758](https://github.com/user-attachments/assets/81e38c11-ff09-464e-b7fc-c8122d0c62c6)
+
+Ping Scan (-sP): Discovers live hosts on a network by checking which IP addresses are active without scanning ports.
+
+Stealth Scan (-sS): Performs a SYN scan, which is faster and less likely to be detected by firewalls compared to a full connection scan.
+
+OS Detection (-O): Tries to determine the target’s operating system by analyzing network responses.
+
+Specific Port Scan (-p): Targets specific port(s) on the host instead of scanning all commonly used ports.
+
+Aggressive Scan (-A): Combines multiple scan types, including OS detection, version detection, script scanning, and traceroute.
+
 
 ## Penetration testing
 
