@@ -92,47 +92,15 @@ I learnt about the OSI model and how it works.I made the detail flowchart of osi
 ## What is OSI model?
 The Open Systems Interconnection (OSI) model is a conceptual framework that divides the communication process between computers into seven layers. Each layer handles a specific aspect of the communication, from the physical transmission of bits to the application-level protocols.
 
-. Physical Layer:**
+Application Layer: Directs user interactions, supporting applications like web browsers and email.
+Presentation Layer: Translates and formats data; handles encryption and compression.
+Session Layer: Manages and controls connections between devices.
+Transport Layer: Ensures reliable data transfer, managing segmentation, and flow control.
+Network Layer: Determines data routing across networks using logical addressing (e.g., IP).
+Data Link Layer: Manages node-to-node data transfer within a network using MAC addresses.
+Physical Layer: Handles the physical transmission of raw data (bits) via cables, radio waves, etc.
 
-- Handles the physical transmission of bits over a physical medium (e.g., cables, optical fibers, wireless).
-- Concerned with electrical, mechanical, and procedural aspects of communication.
-- Examples: Ethernet, Wi-Fi, Bluetooth
 
-**2. Data Link Layer:**(Frame)
-
-- Responsible for framing data into packets and ensuring reliable transmission across a physical link.
-- Handles error detection and correction, flow control, and multiplexing.
-- Examples: PPP, Ethernet, ATM
-
-**3. Network Layer:**(packet)
-
-- Handles the routing of data packets across networks.
-- Responsible for addressing, routing, and packet switching.
-- Examples: IP (Internet Protocol), IPv6, ICMP (Internet Control Message Protocol)
-
-**4. Transport Layer:**(Segment)
-
-- Provides reliable end-to-end communication between applications.
-- Handles flow control, error control, and multiplexing.
-- Examples: TCP (Transmission Control Protocol), UDP (User Datagram Protocol)
-
-**5. Session Layer:**
-
-- Manages sessions between applications.
-- Handles synchronization, checkpointing, and dialog control.
-- Examples: RPC (Remote Procedure Call), NFS (Network File System)
-
-**6. Presentation Layer:**
-
-- Handles the presentation of data, including encryption, compression, and syntax conversion.
-- Ensures that data is in a format that can be understood by the application.
-- Examples: JPEG, MPEG, ASCII
-
-**7. Application Layer:**
-
-- Provides services to applications, such as file transfer, email, and web browsing.
-- Interacts directly with user applications.
-- Examples: HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol)
 ![380485123-0f215da3-5014-43d8-93f9-3755b32f2cfa](https://github.com/user-attachments/assets/13d4595c-dd18-47f5-93b0-60736a724b04)
 
 
