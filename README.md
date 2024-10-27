@@ -309,3 +309,33 @@ In this screenshot it shows the ports and the and the type of the protocol runni
 SSH replaced Telnet because Telnet transmits data, including passwords, in plain text, making it vulnerable to eavesdropping and attacks. SSH, in contrast, uses encryption to secure data, making it far more secure and suitable for managing remote systems.
 
 
+# TASK 7: Databases
+
+I learnt how mysql works and got a handle of the mysql workbench interface. I used thunderclient to connect from the vs code to the mysql workbench
+I did some basic operations like create and read operations
+I connected the pakaage with mysql db using createpool technique 
+# SSH
+
+**SSH (Secure Shell)** is a network protocol that securely connects to remote systems. It encrypts data, ensuring that sensitive information like passwords stays protected during transmission.
+
+### Why SSH Replaced Telnet
+
+SSH replaced Telnet because Telnet transmits data, including passwords, in plain text, making it vulnerable to eavesdropping and attacks. SSH, in contrast, uses encryption to secure data, making it far more secure and suitable for managing remote systems.
+
+# SSH
+
+**SSH (Secure Shell)** is a network protocol that securely connects to remote systems. It encrypts data, ensuring that sensitive information like passwords stays protected during transmission.
+
+### Why SSH Replaced Telnet
+
+SSH replaced Telnet because Telnet transmits data, including passwords, in plain text, making it vulnerable to eavesdropping and attacks. SSH, in contrast, uses encryption to secure data, making it far more secure and suitable for managing remote systems.
+
+
+![{1F35CE53-CA66-44F1-B6AF-84941E7FB7CE}](https://github.com/user-attachments/assets/c8058ccb-c1a4-48f7-967c-a37f7479a3e9)
+
+
+![{CC399016-8E33-4DD3-8765-37E82134E4DA}](https://github.com/user-attachments/assets/ced9a57a-e874-44a5-92ce-8fb89a96d161)![{F713CB20-1C86-487A-8D95-5EF3E6BB4E08}](https://github.com/user-attachments/assets/2c26fb5c-3acd-4f88-988b-20207f729b33)
+![Uploading {1F35CE53-CA66-44F1-B6AF-84941E7FB7CE}.png…]()
+
+
+
