@@ -155,7 +155,7 @@ A device sends a frame across a physical network using Ethernet cables.
 - Finally, the response is received by Johnny.
 
 # TASK 4:Encryption Techniques
-The objective of the task was to learn about basic encryption and decryption using python.I learnt about Types of encryption techniques that is syymetric and asymmetric .I studied about AES AND RSA techniques .I also learnt how to webscrape from a job website  using pyhton libraries such as beautifulsoup4 and pycrytodome where I could filter out the jobs acc to my skills
+The objective of the task was to learn about basic encryption and decryption using python.I learnt about Types of encryption techniques that is syymetric and asymmetric .I studied about AES AND RSA techniques .
 
 
 # Symmetric Encryption
@@ -211,4 +211,62 @@ RSA is a widely used asymmetric encryption algorithm. Here's a simplified breakd
 - **Calculate the plaintext:** The plaintext (m) is calculated as m = c^d mod n
 
 ### WHY AES OVER RSA?:
-AES is preferred over RSA for bulk data encryption due to its speed, efficiency, and ability to handle large datasets effectively. RSA is typically used for secure key exchange rather than for encrypting large amounts of data directly. In many secure systems, both AES and RSA are used together, with RSA handling key exchange and AES providing fast data encryption.
+AES is preferred over RSA for bulk data encryption due to its speed, efficiency, and ability to handle large datasets effectively. RSA is typically used for secure key exchange rather than for encrypting large amounts of data directly. In many secure systems, both AES and RSA are used together, with RSA handling key exchange and AES providing fast data encryption
+
+
+![380485187-1eaae292-ced2-42c0-98bf-db50df8674c3](https://github.com/user-attachments/assets/d0f24530-8cc0-4027-b46f-c6fd7104e80b)
+![380485214-083fbcbe-ce27-4dca-bd0a-5473432e87ef](https://github.com/user-attachments/assets/90a2cb95-eba5-4f97-b727-3e69df4673e5)  
+![380485218-80da4388-2f35-4247-85e4-611eb3044f75](https://github.com/user-attachments/assets/7a58b0c3-6ce5-437f-b03e-077131da8b97)
+
+
+# TASK 5:IP Addressing and Protocols
+I learnt how to webscrape from a job website  using pyhton libraries such as beautifulsoup4 and pycrytodome where I could filter out the jobs according to my skills
+I studied about the Ip address and protocols . I learnt how to analyze them and also about the subnets and NAT and how router plays the role in assigning the Ip address.
+
+# What is IP address?
+Every device connected to the internet has a unique address called an **Internet Protocol (IP) address**. This address helps computers communicate with each other. It's like a digital postal code.
+
+**IP address structure:** 
+    IP addresses are displayed as a set of four digits- the default address may be 192.158.1.38. Each number on the set  may range from 0 to 255. Therefore, the total IP address range ranges from          0.0.0.0 to 255.255.255.255.
+
+  IP address is basically divided into two parts: X1. X2. X3. X4
+          1. [X1. X2. X3] is the Network ID
+          2. [X4] is the Host ID
+
+##### YOUR ROUTER GIVES YOU THE IP ADDRESS
+This is done through a protocol called **Dynamic Host Configuration Protocol (DHCP)**, which automatically assigns a local IP address (usually in the form of 192.168.x.x or 10.x.x.x) to devices on the local network.
+When the device wants to access the network that is not in the same range (same street)
+that's where default gateway aka router comes into play.
+
+#### What is IANA?
+The **Internet Assigned Numbers Authority (IANA)** is a key part of the global infrastructure that ensures the smooth functioning of the Internet
+
+### Protocols
+
+Think of protocols as the rules of the road for internet traffic. They define how data is formatted, transmitted, and received. Some common protocols include:
+- **HTTP (Hypertext Transfer Protocol):** Used for transferring web pages.
+- **TCP (Transmission Control Protocol):** Ensures reliable data delivery.
+- **UDP (User Datagram Protocol):** Faster but less reliable than TCP, used for applications like streaming.
+- **DNS (Domain Name System):** Converts human-readable domain names into IP addresses.
+
+
+
+## Webscraping:
+
+Web scraping is the process of extracting data from websites. It's like a digital librarian, collecting information from various online sources. For example, you might use a web scraper to gather product prices from different e-commerce websites.
+Web scraping uses intelligence automation methods to get thousands or even millions of data sets in a smaller amount of time.
+
+   **How does it work?**
+
+1. **Request:** The scraper sends a request to the website, asking for the HTML code of a specific page.
+2. **Parsing:** The scraper analyzes the HTML code to identify the data it wants to extract.  In the context of web scraping, parsing refers to the process of analyzing the HTML code of a web page to identify and extract the desired data.
+4. **Extraction:** The scraper extracts the desired data, such as product names, prices, or descriptions.
+
+SCRAPING IP ADDRESSES
+
+![image](https://github.com/user-attachments/assets/b757b93d-be73-4bda-81da-1362d50fabf9)
+
+WEBSCRAPING A WEBSITE
+![380485650-d0f3e52f-1639-42ee-bc75-bda886977558](https://github.com/user-attachments/assets/1c801ac7-6ebb-4200-8ed8-9b2cc293619a)
+
+
