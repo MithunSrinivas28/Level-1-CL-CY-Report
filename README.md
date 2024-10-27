@@ -30,4 +30,57 @@ Express.js is better than plain Node.js for web development because it simplifie
 
 
 
+# TASK 2:Git Bash and GitHub
+
+I got familiar with basic git commands while using git bash.I learnt how to create repository and add files into them.I then learnt how to commit changes and initaie pull request to repository.I also learnt about branching and merging 
+
+## Understanding Git and Git Bash
+
+**Git** is a distributed version control system that tracks changes in files over time. It allows you to collaborate effectively with others on projects, manage different versions of your code, and revert to previous states if necessary.
+(It can related to a bank account statements where all the credit and debit changes made in the bank account are tracked in the passbook)
+
+
+**Git Bash** is a command-line interface specifically designed for Git. It provides a convenient way to interact with Git repositories and execute Git commands.
+
+
+## Basic Git Commands
+
+#### Some basic definitions using the command  "git help"
+
+![Pasted image 20241025222229](https://github.com/user-attachments/assets/a70d2e8d-23da-4de3-8de6-0b41ed8e0754)
+
+
+1. **`git help`**: Provides documentation for any Git command.
+2. **`mkdir`**: Creates a new directory.
+3. **`cd`**: Changes the current directory.
+4. **`ls`**: Lists files and directories.
+5. **`git config --global user.name "<name>"`**: Sets a global Git username.
+6. **`whoami`**: Shows the current user’s username.
+7. **`pwd`**: Displays the current directory path.
+8. **`ls -l`**: Lists files with detailed information.
+9. **`git add`**: Stages files for commit.
+10. **`git commit`**: Saves staged changes to the repository.
+11. **Creating repository in Git Bash vs. GitHub**:
+
+- **Git Bash**: Initializes a local repository.
+- **GitHub**: Hosts a remote repository for collaboration.
+
+- 12. **Initialization:**
+    
+    - Create a new Git repository: `git init`
+    - Clone an existing repository: `git clone <repository URL>`
+13. **Staging Changes:**
+    
+    - Add files to the staging area: `git add <filename>`
+    - Add all modified files: `git add .`
+14. **Committing Changes:**
+    
+    - Commit staged changes to the local repository: `git commit -m "Commit message"`
+15. **Pushing Changes:**
+    
+    - Push committed changes to a remote repository: `git push <remote>
+    -  ![Pasted image 20241025225134](https://github.com/user-attachments/assets/a340a238-259a-4ca5-84fe-2f5ad203d945)
+<branch>`
+
+
 
