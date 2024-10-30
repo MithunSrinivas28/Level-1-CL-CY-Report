@@ -110,7 +110,7 @@ Physical Layer: Handles the physical transmission of raw data (bits) via cables,
 ![380485123-0f215da3-5014-43d8-93f9-3755b32f2cfa](https://github.com/user-attachments/assets/13d4595c-dd18-47f5-93b0-60736a724b04)
 
 
- Simple example to learn OSI model:
+ ###Simple example to learn OSI model:
 
 A My device sends a frame across a physical network using Ethernet cables.
 - The frame passes through various network devices, including:
